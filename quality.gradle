@@ -69,11 +69,11 @@ def streamToFile(String fileUrl, String fileName) {
 }
 
 ext {
-  checkstyleUrl = "https://raw.githubusercontent.com/haodynasty/AndroidCodeCheck/master/checkstyle/checkstyle.xml"
-  suppressionsUrl = "https://raw.githubusercontent.com/haodynasty/AndroidCodeCheck/master/checkstyle/suppressions.xml"
-  findbugsUrl = "https://raw.githubusercontent.com/haodynasty/AndroidCodeCheck/master/findbugs/findbugs-filter.xml"
-  pmdUrl = "https://raw.githubusercontent.com/haodynasty/AndroidCodeCheck/master/pmd/pmd-ruleset.xml"
-  lintUrl = "https://raw.githubusercontent.com/haodynasty/AndroidCodeCheck/master/lint/lint.xml"
+  checkstyleUrl = "https://github.com/anthony199010/CodeCheck/tree/master/checkstyle/checkstyle.xml"
+  suppressionsUrl = "https://github.com/anthony199010/CodeCheck/tree/master/checkstyle/suppressions.xml"
+  findbugsUrl = "https://github.com/anthony199010/CodeCheck/tree/master/findbugs/findbugs-filter.xml"
+  pmdUrl = "https://github.com/anthony199010/CodeCheck/tree/master/pmd/pmd-ruleset.xml"
+  lintUrl = "https://github.com/anthony199010/CodeCheck/tree/master/lint/lint.xml"
   checkstyleFile = streamToFile(checkstyleUrl, "checkstyle.xml")
   suppressionsFile = streamToFile(suppressionsUrl, "suppressions.xml")
   findbugsFilter = streamToFile(findbugsUrl, "findbugs-filter.xml")
