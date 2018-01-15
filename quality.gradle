@@ -67,13 +67,13 @@ def streamToFile(String fileUrl, String fileName) {
   println '.....fail to get config from '+fileUrl
   return null
 }
-
+https://github.com/anthony199010/CodeCheck/blob/master/quality.gradle
 ext {
-  checkstyleUrl = "https://github.com/anthony199010/CodeCheck/tree/master/checkstyle/checkstyle.xml"
-  suppressionsUrl = "https://github.com/anthony199010/CodeCheck/tree/master/checkstyle/suppressions.xml"
-  findbugsUrl = "https://github.com/anthony199010/CodeCheck/tree/master/findbugs/findbugs-filter.xml"
-  pmdUrl = "https://github.com/anthony199010/CodeCheck/tree/master/pmd/pmd-ruleset.xml"
-  lintUrl = "https://github.com/anthony199010/CodeCheck/tree/master/lint/lint.xml"
+  checkstyleUrl = "https://github.com/anthony199010/CodeCheck/blob/master/checkstyle/checkstyle.xml"
+  suppressionsUrl = "https://github.com/anthony199010/CodeCheck/blob/master/checkstyle/suppressions.xml"
+  findbugsUrl = "https://github.com/anthony199010/CodeCheck/blob/master/findbugs/findbugs-filter.xml"
+  pmdUrl = "https://github.com/anthony199010/CodeCheck/blob/master/pmd/pmd-ruleset.xml"
+  lintUrl = "https://github.com/anthony199010/CodeCheck/blob/master/lint/lint.xml"
   checkstyleFile = streamToFile(checkstyleUrl, "checkstyle.xml")
   suppressionsFile = streamToFile(suppressionsUrl, "suppressions.xml")
   findbugsFilter = streamToFile(findbugsUrl, "findbugs-filter.xml")
