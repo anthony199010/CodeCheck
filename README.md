@@ -1,1 +1,1 @@
-完成的代码检测工具，可以通过CheckStyl和PMD和findbug。
+代码检测工具，可以通过CheckStyl和PMD和findbug。
